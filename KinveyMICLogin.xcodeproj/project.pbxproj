@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0FAB5F1FD963FF00A393C7 /* Kinvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0FAB601FD963FF00A393C7 /* Kinvey.framework */; };
+		2B0FAB621FD96B3800A393C7 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0FAB611FD96B3800A393C7 /* Book.swift */; };
+		2E98DF371BCCE3371F4C4E7B /* Pods_KinveyMICLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E1DB833566C8D9650D8AA5 /* Pods_KinveyMICLogin.framework */; };
+		57AA310A1F5F05FB00FFCE8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AA31091F5F05FB00FFCE8D /* AppDelegate.swift */; };
+		57AA310C1F5F05FB00FFCE8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AA310B1F5F05FB00FFCE8D /* ViewController.swift */; };
+		57AA310F1F5F05FB00FFCE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AA310D1F5F05FB00FFCE8D /* Main.storyboard */; };
+		57AA31111F5F05FB00FFCE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57AA31101F5F05FB00FFCE8D /* Assets.xcassets */; };
+		57AA31141F5F05FB00FFCE8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AA31121F5F05FB00FFCE8D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19CBE110E83144A02B981A29 /* Pods-KinveyMICLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyMICLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyMICLogin/Pods-KinveyMICLogin.release.xcconfig"; sourceTree = "<group>"; };
+		2B0FAB601FD963FF00A393C7 /* Kinvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kinvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0FAB611FD96B3800A393C7 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2B270062204031C100B50887 /* KinveyMICLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KinveyMICLogin.entitlements; sourceTree = "<group>"; };
+		57AA31061F5F05FB00FFCE8D /* KinveyMICLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinveyMICLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57AA31091F5F05FB00FFCE8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57AA310B1F5F05FB00FFCE8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57AA310E1F5F05FB00FFCE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57AA31101F5F05FB00FFCE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57AA31131F5F05FB00FFCE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57AA31151F5F05FB00FFCE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC11E434ED53669E72967D0 /* Pods-KinveyMICLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KinveyMICLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KinveyMICLogin/Pods-KinveyMICLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		D4E1DB833566C8D9650D8AA5 /* Pods_KinveyMICLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KinveyMICLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57AA31031F5F05FB00FFCE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0FAB5F1FD963FF00A393C7 /* Kinvey.framework in Frameworks */,
+				2E98DF371BCCE3371F4C4E7B /* Pods_KinveyMICLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C7A0B7692C471391A43064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEC11E434ED53669E72967D0 /* Pods-KinveyMICLogin.debug.xcconfig */,
+				19CBE110E83144A02B981A29 /* Pods-KinveyMICLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57AA30FD1F5F05FB00FFCE8D = {
+			isa = PBXGroup;
+			children = (
+				57AA31081F5F05FB00FFCE8D /* KinveyMICLogin */,
+				57AA31071F5F05FB00FFCE8D /* Products */,
+				16C7A0B7692C471391A43064 /* Pods */,
+				9D24996834BAE352464E0CD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57AA31071F5F05FB00FFCE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57AA31061F5F05FB00FFCE8D /* KinveyMICLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57AA31081F5F05FB00FFCE8D /* KinveyMICLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2B270062204031C100B50887 /* KinveyMICLogin.entitlements */,
+				2B0FAB611FD96B3800A393C7 /* Book.swift */,
+				57AA31091F5F05FB00FFCE8D /* AppDelegate.swift */,
+				57AA310B1F5F05FB00FFCE8D /* ViewController.swift */,
+				57AA310D1F5F05FB00FFCE8D /* Main.storyboard */,
+				57AA31101F5F05FB00FFCE8D /* Assets.xcassets */,
+				57AA31121F5F05FB00FFCE8D /* LaunchScreen.storyboard */,
+				57AA31151F5F05FB00FFCE8D /* Info.plist */,
+			);
+			path = KinveyMICLogin;
+			sourceTree = "<group>";
+		};
+		9D24996834BAE352464E0CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0FAB601FD963FF00A393C7 /* Kinvey.framework */,
+				D4E1DB833566C8D9650D8AA5 /* Pods_KinveyMICLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57AA31051F5F05FB00FFCE8D /* KinveyMICLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AA31181F5F05FB00FFCE8D /* Build configuration list for PBXNativeTarget "KinveyMICLogin" */;
+			buildPhases = (
+				C124C6A58886E48F3F40E590 /* [CP] Check Pods Manifest.lock */,
+				57AA31021F5F05FB00FFCE8D /* Sources */,
+				57AA31031F5F05FB00FFCE8D /* Frameworks */,
+				57AA31041F5F05FB00FFCE8D /* Resources */,
+				4F89F50BEF8EC8D735E10A99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinveyMICLogin;
+			productName = KinveyMICLogin;
+			productReference = 57AA31061F5F05FB00FFCE8D /* KinveyMICLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57AA30FE1F5F05FB00FFCE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Kinvey;
+				TargetAttributes = {
+					57AA31051F5F05FB00FFCE8D = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CHSQ3M3P37;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 57AA31011F5F05FB00FFCE8D /* Build configuration list for PBXProject "KinveyMICLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57AA30FD1F5F05FB00FFCE8D;
+			productRefGroup = 57AA31071F5F05FB00FFCE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AA31051F5F05FB00FFCE8D /* KinveyMICLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57AA31041F5F05FB00FFCE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA31141F5F05FB00FFCE8D /* LaunchScreen.storyboard in Resources */,
+				57AA31111F5F05FB00FFCE8D /* Assets.xcassets in Resources */,
+				57AA310F1F5F05FB00FFCE8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F89F50BEF8EC8D735E10A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KinveyMICLogin/Pods-KinveyMICLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kinvey/Kinvey.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kinvey.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KinveyMICLogin/Pods-KinveyMICLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C124C6A58886E48F3F40E590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KinveyMICLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57AA31021F5F05FB00FFCE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AA310C1F5F05FB00FFCE8D /* ViewController.swift in Sources */,
+				57AA310A1F5F05FB00FFCE8D /* AppDelegate.swift in Sources */,
+				2B0FAB621FD96B3800A393C7 /* Book.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57AA310D1F5F05FB00FFCE8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA310E1F5F05FB00FFCE8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57AA31121F5F05FB00FFCE8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57AA31131F5F05FB00FFCE8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57AA31161F5F05FB00FFCE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57AA31171F5F05FB00FFCE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57AA31191F5F05FB00FFCE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC11E434ED53669E72967D0 /* Pods-KinveyMICLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KinveyMICLogin/KinveyMICLogin.entitlements;
+				DEVELOPMENT_TEAM = CHSQ3M3P37;
+				INFOPLIST_FILE = KinveyMICLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.EverlivePushSanity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		57AA311A1F5F05FB00FFCE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CBE110E83144A02B981A29 /* Pods-KinveyMICLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KinveyMICLogin/KinveyMICLogin.entitlements;
+				DEVELOPMENT_TEAM = CHSQ3M3P37;
+				INFOPLIST_FILE = KinveyMICLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.EverlivePushSanity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57AA31011F5F05FB00FFCE8D /* Build configuration list for PBXProject "KinveyMICLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA31161F5F05FB00FFCE8D /* Debug */,
+				57AA31171F5F05FB00FFCE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AA31181F5F05FB00FFCE8D /* Build configuration list for PBXNativeTarget "KinveyMICLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AA31191F5F05FB00FFCE8D /* Debug */,
+				57AA311A1F5F05FB00FFCE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57AA30FE1F5F05FB00FFCE8D /* Project object */;
+}
